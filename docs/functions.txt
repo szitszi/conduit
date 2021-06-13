@@ -1,0 +1,16 @@
+1_regisztráció: az alkalmazásba be lehet regisztrálni, név, emailcím és jelszó megadásával
+2_bejelentkezés: az alkalmazásba be lehet jelentkezni egy meglévő felhasználói fiókkal
+3_új cikk írás: bejelentkezett felhasználó tud cikket, bejegyzést írni
+4_komment írás: bejelentkezett felhasználó tud kommentet írni a saját bejegyzéséhez
+5_cikk szerkesztése: bejelentkezett felhasználó szerkeztheti a korábban már publikált írását
+6_cikk törlése: bejelentkezett felhasználó törölheti a korábban már publikált írását
+7_cikk olvasás: bejegyzett cikk olvasása bárki számára, azaz regisztráció nélkül is
+8_cikk kommentelés: bejelentkezett felhasználó tud kommentet, bejegyzést írni más felhasználó által írt cikkhez
+9_követés be/leállítás: bejelentkezett felhasználó meg tud jelölni más felhasználót követésre, illetve ezt vissza is tudja venni
+10_kedvenc be/leállítás: bejelentkezett felhasználó meg tud jelölni bármilyen cikket kedveltként, illetve ezt vissza is tudja venni
+11_saját cikkek gyűjteménye: bejelentkezett felhasználó a saját cikkeit egy külön csoportban egyben megtekintheti
+12_kedvenc cikkek gyűjteménye: bejelentkezett felhasználó a kedvencként megjelölt cikkeit egy külön csoportban egyben megtekintheti
+13_beállítások: bejelentkezett felhasználó be tudja állítani, illetve meg tudja változtatni az adatit (kép, felhasználónév, leírás, e-mailcím, jelszó)
+14_címkék: címkék szerinti keresés
+15_kezdő oldal: a Home gomb, illetve a conduit logó megnyomásával a kezdőlapra lehet bárhonnan átnavigálni
+16_kijelentkezés: bejelentkezett felhasználó ki tud lépni az alkalmazásból
