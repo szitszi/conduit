@@ -1,7 +1,7 @@
 {
   "id": "e8f9d57e-e233-4a09-8cac-729c60e003df",
   "version": "2.0",
-  "name": "Conduit_app",
+  "name": "registration",
   "url": "http://localhost:1667",
   "tests": [{
     "id": "9582c386-68af-428a-92b6-b15a9c8d5d01",
@@ -504,7 +504,7 @@
   }],
   "suites": [{
     "id": "2eb96adf-f4e4-40b9-9cdf-388e4b87b9d8",
-    "name": "Registration",
+    "name": "registration",
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
