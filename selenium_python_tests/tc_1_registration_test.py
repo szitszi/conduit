@@ -4,7 +4,7 @@ import time
 
 options = Options()
 options.add_argument('--headless')
-options.add_argument('--disable-gpu')
+# options.add_argument('--disable-gpu')
 
 def test_tc_1_registration():
 
