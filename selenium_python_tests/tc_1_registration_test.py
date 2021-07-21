@@ -8,7 +8,8 @@ options.add_argument('--headless')
 
 def test_tc_1_registration():
 
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(chrome_options=options)
+
 
     driver.get('http://localhost:1667/')
 
