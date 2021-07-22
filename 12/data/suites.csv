@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jul 22 13:41:13 GMT 2021","Thu Jul 22 13:41:27 GMT 2021","14454","selenium_python_tests","tc_2_sign_in_test","","","","test_tc_2_sign_in",""
+"passed","Thu Jul 22 13:41:32 GMT 2021","Thu Jul 22 13:41:42 GMT 2021","10204","selenium_python_tests","tc_4_list_test","","","","test_tc_4_list",""
+"passed","Thu Jul 22 13:40:52 GMT 2021","Thu Jul 22 13:41:13 GMT 2021","20682","selenium_python_tests","tc_1_registration_test","","","","test_tc_1_registration",""
+"passed","Thu Jul 22 13:41:27 GMT 2021","Thu Jul 22 13:41:32 GMT 2021","4731","selenium_python_tests","tc_3_gdpr_test","","","","test_tc_3_gdpr",""
