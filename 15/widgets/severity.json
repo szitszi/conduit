@@ -1,0 +1,111 @@
+[ {
+  "uid" : "8dc1bcb7422201ce",
+  "name" : "test_tc_11_log_out",
+  "time" : {
+    "start" : 1626962926321,
+    "stop" : 1626962934278,
+    "duration" : 7957
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "193ef03ba21b9b15",
+  "name" : "test_tc_8_modification",
+  "time" : {
+    "start" : 1626963006230,
+    "stop" : 1626963019336,
+    "duration" : 13106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20fe7a1b51905c98",
+  "name" : "test_tc_10_data_export",
+  "time" : {
+    "start" : 1626962870408,
+    "stop" : 1626962926319,
+    "duration" : 55911
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c712f4f4cdb193c2",
+  "name" : "test_tc_1_registration",
+  "time" : {
+    "start" : 1626962934282,
+    "stop" : 1626962946215,
+    "duration" : 11933
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a9f3e44805238d0",
+  "name" : "test_tc_3_gdpr",
+  "time" : {
+    "start" : 1626962960346,
+    "stop" : 1626962965918,
+    "duration" : 5572
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7be49ebf8a06ea65",
+  "name" : "test_tc_2_sign_in",
+  "time" : {
+    "start" : 1626962946218,
+    "stop" : 1626962960343,
+    "duration" : 14125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "463417e6209a17c5",
+  "name" : "test_tc_4_list",
+  "time" : {
+    "start" : 1626962965922,
+    "stop" : 1626962975036,
+    "duration" : 9114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6780062b779c4b78",
+  "name" : "test_tc_5_pages",
+  "time" : {
+    "start" : 1626962975041,
+    "stop" : 1626962982958,
+    "duration" : 7917
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d1b2ca719cae656",
+  "name" : "test_tc_7_data_import",
+  "time" : {
+    "start" : 1626962999264,
+    "stop" : 1626963006190,
+    "duration" : 6926
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "44472530ace69be9",
+  "name" : "test_tc_9_deletion",
+  "time" : {
+    "start" : 1626963019339,
+    "stop" : 1626963040610,
+    "duration" : 21271
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38c6fbe61fe509d",
+  "name" : "test_tc_6_new_article",
+  "time" : {
+    "start" : 1626962982961,
+    "stop" : 1626962999261,
+    "duration" : 16300
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

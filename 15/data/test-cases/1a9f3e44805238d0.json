@@ -1,0 +1,113 @@
+{
+  "uid" : "1a9f3e44805238d0",
+  "name" : "test_tc_3_gdpr",
+  "fullName" : "selenium_python_tests.tc_3_gdpr_test#test_tc_3_gdpr",
+  "historyId" : "6632fc571273a5c00a7757c4279446af",
+  "time" : {
+    "start" : 1626962960346,
+    "stop" : 1626962965918,
+    "duration" : 5572
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ad3650fdd020d2ed",
+      "name" : "log",
+      "source" : "ad3650fdd020d2ed.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "5b36539cae8cf209",
+      "name" : "stderr",
+      "source" : "5b36539cae8cf209.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "selenium_python_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tc_3_gdpr_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-685"
+  }, {
+    "name" : "thread",
+    "value" : "4205-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "selenium_python_tests.tc_3_gdpr_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "b917a65055be98a1",
+        "reportUrl" : "https://szitszi.github.io/conduit/14//#testresult/b917a65055be98a1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626962436092,
+          "stop" : 1626962440738,
+          "duration" : 4646
+        }
+      }, {
+        "uid" : "4222ccb9fd1834f0",
+        "reportUrl" : "https://szitszi.github.io/conduit/13//#testresult/4222ccb9fd1834f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626962066306,
+          "stop" : 1626962072068,
+          "duration" : 5762
+        }
+      }, {
+        "uid" : "1be6ed8de1751ae7",
+        "reportUrl" : "https://szitszi.github.io/conduit/12//#testresult/1be6ed8de1751ae7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626961287803,
+          "stop" : 1626961292534,
+          "duration" : 4731
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1a9f3e44805238d0.json",
+  "parameterValues" : [ ]
+}
