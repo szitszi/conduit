@@ -1,0 +1,81 @@
+{
+  "uid" : "9108104ea384356",
+  "name" : "test_tc_11_log_out",
+  "fullName" : "selenium_python_tests.tc_11_log out_test#test_tc_11_log_out",
+  "historyId" : "2ff628c2f000ab12f79c87d839794752",
+  "time" : {
+    "start" : 1626962401846,
+    "stop" : 1626962409875,
+    "duration" : 8029
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a273ed8d6db81fd8",
+      "name" : "log",
+      "source" : "a273ed8d6db81fd8.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "1892a5a871d9f9c0",
+      "name" : "stdout",
+      "source" : "1892a5a871d9f9c0.txt",
+      "type" : "text/plain",
+      "size" : 6
+    }, {
+      "uid" : "52ef51686308752",
+      "name" : "stderr",
+      "source" : "52ef51686308752.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "selenium_python_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tc_11_log out_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-527"
+  }, {
+    "name" : "thread",
+    "value" : "3619-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "selenium_python_tests.tc_11_log out_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9108104ea384356.json",
+  "parameterValues" : [ ]
+}

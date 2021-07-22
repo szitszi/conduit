@@ -1,0 +1,83 @@
+{
+  "uid" : "492eeb6c1ec63b6c",
+  "name" : "test_tc_7_data_import",
+  "fullName" : "selenium_python_tests.tc_7_data_import_test#test_tc_7_data_import",
+  "historyId" : "d66a3418439fc50511edb7df59e8bb12",
+  "time" : {
+    "start" : 1626962475213,
+    "stop" : 1626962481151,
+    "duration" : 5938
+  },
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'import_data.csv'",
+  "statusTrace" : "def test_tc_7_data_import():\n    \n        driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)\n    \n        driver.get('http://localhost:1667/')\n        driver.set_window_rect(800, 100, 600, 800)\n    \n        input_data = [\"Sz\", f\"Sz{random.randint(10, 1000)}@sz.hu\", \"Sz123456\"]\n        data_of_new_article = [\"test_title\", \"test_about\", \"test_article text\", \"test_tag\"]\n    \n    \n        # ------------------Sign up-----------------\n        def registration_process():\n            driver.find_element_by_xpath(\"//a[@href='#/register']\").click()\n            # time.sleep(2)\n            for i in range(len(input_data)):\n                driver.find_element_by_xpath(f\"//fieldset[{i + 1}]/input\").send_keys(input_data[i])\n                # time.sleep(2)\n            driver.find_element_by_tag_name(\"button\").click()\n    \n        registration_process()\n    \n        time.sleep(3)\n    \n        # --------Accept of welcome message----------\n        driver.find_element_by_xpath(\"//div[@tabindex='-1']/div/div[4]/div/button\").click()\n    \n        time.sleep(2)\n    \n        # -----------Import input data-----------\n    \n        def writing_of_new_article_process(input_title, input_about, input_text, input_tag):\n            driver.find_element_by_xpath(\"//a[@href='#/editor']\").click()\n            time.sleep(2)\n            driver.find_element_by_xpath(\"//input[@placeholder='Article Title']\").send_keys(input_title)\n            driver.find_element_by_xpath(\"//input[starts-with(@placeholder,'What')]\").send_keys(input_about)\n            driver.find_element_by_xpath(\"//textarea[starts-with(@placeholder,'Write')]\").send_keys(input_text)\n            driver.find_element_by_xpath(\"//input[@placeholder='Enter tags']\").send_keys(input_tag)\n            time.sleep(1)\n            driver.find_element_by_xpath(\"//button[@class='btn btn-lg pull-xs-right btn-primary']\").click()\n            time.sleep(1)\n    \n    \n>       with open('import_data.csv') as csvfile:\nE       FileNotFoundError: [Errno 2] No such file or directory: 'import_data.csv'\n\nselenium_python_tests/tc_7_data_import_test.py:56: FileNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'import_data.csv'",
+    "statusTrace" : "def test_tc_7_data_import():\n    \n        driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)\n    \n        driver.get('http://localhost:1667/')\n        driver.set_window_rect(800, 100, 600, 800)\n    \n        input_data = [\"Sz\", f\"Sz{random.randint(10, 1000)}@sz.hu\", \"Sz123456\"]\n        data_of_new_article = [\"test_title\", \"test_about\", \"test_article text\", \"test_tag\"]\n    \n    \n        # ------------------Sign up-----------------\n        def registration_process():\n            driver.find_element_by_xpath(\"//a[@href='#/register']\").click()\n            # time.sleep(2)\n            for i in range(len(input_data)):\n                driver.find_element_by_xpath(f\"//fieldset[{i + 1}]/input\").send_keys(input_data[i])\n                # time.sleep(2)\n            driver.find_element_by_tag_name(\"button\").click()\n    \n        registration_process()\n    \n        time.sleep(3)\n    \n        # --------Accept of welcome message----------\n        driver.find_element_by_xpath(\"//div[@tabindex='-1']/div/div[4]/div/button\").click()\n    \n        time.sleep(2)\n    \n        # -----------Import input data-----------\n    \n        def writing_of_new_article_process(input_title, input_about, input_text, input_tag):\n            driver.find_element_by_xpath(\"//a[@href='#/editor']\").click()\n            time.sleep(2)\n            driver.find_element_by_xpath(\"//input[@placeholder='Article Title']\").send_keys(input_title)\n            driver.find_element_by_xpath(\"//input[starts-with(@placeholder,'What')]\").send_keys(input_about)\n            driver.find_element_by_xpath(\"//textarea[starts-with(@placeholder,'Write')]\").send_keys(input_text)\n            driver.find_element_by_xpath(\"//input[@placeholder='Enter tags']\").send_keys(input_tag)\n            time.sleep(1)\n            driver.find_element_by_xpath(\"//button[@class='btn btn-lg pull-xs-right btn-primary']\").click()\n            time.sleep(1)\n    \n    \n>       with open('import_data.csv') as csvfile:\nE       FileNotFoundError: [Errno 2] No such file or directory: 'import_data.csv'\n\nselenium_python_tests/tc_7_data_import_test.py:56: FileNotFoundError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d1f9da1ccff40ed7",
+      "name" : "log",
+      "source" : "d1f9da1ccff40ed7.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "59a576c1f1c2920f",
+      "name" : "stderr",
+      "source" : "59a576c1f1c2920f.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "selenium_python_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tc_7_data_import_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-527"
+  }, {
+    "name" : "thread",
+    "value" : "3619-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "selenium_python_tests.tc_7_data_import_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "492eeb6c1ec63b6c.json",
+  "parameterValues" : [ ]
+}
