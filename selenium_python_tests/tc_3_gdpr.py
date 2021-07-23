@@ -1,25 +1,31 @@
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
 import time
 
-driver = webdriver.Chrome()
+opt = Options()
+opt.headless = False
+# options.add_argument('--disable-gpu')
+
+driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)
+driver.set_window_rect(1200, 400, 1300, 1000)
 
 driver.get('http://localhost:1667/')
 
 time.sleep(2)
 
 # ----------Accept cookies---------
-#
-# driver.find_element_by_xpath("//button[@class='cookie__bar__buttons__button cookie__bar__buttons__button--accept']").click()
-#
-# time.sleep(2)
 
-# driver.close()
+driver.find_element_by_xpath("//button[@class='cookie__bar__buttons__button cookie__bar__buttons__button--accept']").click()
+
+time.sleep(2)
+
 
 
 # -----------Decline cookies---------
 
-driver.find_element_by_xpath("//button[@class='cookie__bar__buttons__button cookie__bar__buttons__button--decline']").click()
-
-time.sleep(2)
-
+# driver.find_element_by_xpath("//button[@class='cookie__bar__buttons__button cookie__bar__buttons__button--decline']").click()
+#
+# time.sleep(2)
+#
 driver.close()
