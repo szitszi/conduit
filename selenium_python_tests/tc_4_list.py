@@ -15,6 +15,7 @@ try:
 
     input_data = ["testuser2", "testuser2@example.com", "Abcd123$"]
 
+    time.sleep(2)
 
     # ------Sign in---------
     def login_process():
@@ -24,7 +25,6 @@ try:
             time.sleep(1)
         driver.find_element_by_tag_name("button").click()
 
-
     login_process()
 
     time.sleep(2)
@@ -32,7 +32,7 @@ try:
     # -----------Making list-----------
     signed_up_user = driver.find_element_by_xpath("//li[@class='nav-item'][4]/a")
     signed_up_user.click()
-    time.sleep(2)
+    time.sleep(3)
     article_title_list = driver.find_elements_by_xpath("//div[@class='article-preview']/a/h1")
     for item in article_title_list:
         print(item.text)

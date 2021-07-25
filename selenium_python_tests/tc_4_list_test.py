@@ -5,6 +5,8 @@ import time
 
 opt = Options()
 opt.headless = True
+
+
 # options.add_argument('--disable-gpu')
 
 def test_tc_4_list():
@@ -29,7 +31,7 @@ def test_tc_4_list():
     # -----------Making list-----------
     signed_up_user = driver.find_element_by_xpath("//li[@class='nav-item'][4]/a")
     signed_up_user.click()
-    time.sleep(2)
+    time.sleep(3)
     article_title_list = driver.find_elements_by_xpath("//div[@class='article-preview']/a/h1")
     for item in article_title_list:
         print(item.text)
