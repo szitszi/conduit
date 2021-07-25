@@ -1,0 +1,111 @@
+[ {
+  "uid" : "9708f8518a872824",
+  "name" : "test_tc_9_deletion",
+  "time" : {
+    "start" : 1627220771228,
+    "stop" : 1627220791447,
+    "duration" : 20219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e2dff8590080b8f",
+  "name" : "test_tc_7_data_import",
+  "time" : {
+    "start" : 1627220751149,
+    "stop" : 1627220758147,
+    "duration" : 6998
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c59375f735518221",
+  "name" : "test_tc_4_list",
+  "time" : {
+    "start" : 1627220724214,
+    "stop" : 1627220734114,
+    "duration" : 9900
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcced83478645617",
+  "name" : "test_tc_11_log_out",
+  "time" : {
+    "start" : 1627220693907,
+    "stop" : 1627220700855,
+    "duration" : 6948
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86c0881c8a81c2be",
+  "name" : "test_tc_1_registration",
+  "time" : {
+    "start" : 1627220700859,
+    "stop" : 1627220711839,
+    "duration" : 10980
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6707645d7a27ccc5",
+  "name" : "test_tc_2_sign_in",
+  "time" : {
+    "start" : 1627220711842,
+    "stop" : 1627220718627,
+    "duration" : 6785
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ada7ad5bf3f3c5f9",
+  "name" : "test_tc_3_gdpr",
+  "time" : {
+    "start" : 1627220718631,
+    "stop" : 1627220724211,
+    "duration" : 5580
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8f9ac7a0b29f327",
+  "name" : "test_tc_8_modification",
+  "time" : {
+    "start" : 1627220758150,
+    "stop" : 1627220771225,
+    "duration" : 13075
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7d2b33f5d14b72a",
+  "name" : "test_tc_6_new_article",
+  "time" : {
+    "start" : 1627220740968,
+    "stop" : 1627220751145,
+    "duration" : 10177
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2eb145db42fb5dc",
+  "name" : "test_tc_5_pages",
+  "time" : {
+    "start" : 1627220734117,
+    "stop" : 1627220740965,
+    "duration" : 6848
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a136a55825c08a0",
+  "name" : "test_tc_10_data_export",
+  "time" : {
+    "start" : 1627220638255,
+    "stop" : 1627220693904,
+    "duration" : 55649
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
