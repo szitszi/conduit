@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 13 == 1\n +  where 13 = len([<selenium.webdriver.remote.webelement.WebElement (session=\"9e1fbab460316be01549c1b2000f5cdf\", element=\"debc5cab-360f-...belement.WebElement (session=\"9e1fbab460316be01549c1b2000f5cdf\", element=\"96c0edb8-da81-47ae-9062-6cc90576ad95\")>, ...])\n +    where [<selenium.webdriver.remote.webelement.WebElement (session=\"9e1fbab460316be01549c1b2000f5cdf\", element=\"debc5cab-360f-...belement.WebElement (session=\"9e1fbab460316be01549c1b2000f5cdf\", element=\"96c0edb8-da81-47ae-9062-6cc90576ad95\")>, ...] = <bound method WebDriver.find_elements_by_xpath of <selenium.webdriver.chrome.webdriver.WebDriver (session=\"9e1fbab460316be01549c1b2000f5cdf\")>>('//h1')\n +      where <bound method WebDriver.find_elements_by_xpath of <selenium.webdriver.chrome.webdriver.WebDriver (session=\"9e1fbab460316be01549c1b2000f5cdf\")>> = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"9e1fbab460316be01549c1b2000f5cdf\")>.find_elements_by_xpath",
+      "children" : [ {
+        "name" : "test_tc_9_deletion",
+        "uid" : "f8cd5cb6bdb6e5d4",
+        "parentUid" : "ad93cd6c5035d48438cac81b819c427e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627250402647,
+          "stop" : 1627250420068,
+          "duration" : 17421
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ad93cd6c5035d48438cac81b819c427e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
