@@ -27,7 +27,6 @@ try:
             driver.find_element_by_xpath(f"//fieldset[{i + 1}]/input").send_keys(input_data[i])
         driver.find_element_by_tag_name("button").click()
 
-
     registration_process()
 
     time.sleep(2)

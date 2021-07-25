@@ -49,7 +49,7 @@ try:
 
     time.sleep(2)
 
-    # -----------Check of appearene of new article-----------
+    # -----------Check of appearance of new article-----------
 
     print(driver.find_element_by_tag_name("h1").text)
     assert driver.find_element_by_tag_name("h1").text == data_of_new_article[0]

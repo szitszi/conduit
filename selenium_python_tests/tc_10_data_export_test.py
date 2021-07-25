@@ -4,21 +4,20 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 import random
 import os
+import string
 
-options = Options()
-options.headless = True
+opt = Options()
+opt.headless = True
 # options.add_argument('--disable-gpu')
 
 
 def test_tc_10_data_export():
 
-    driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
-    driver.set_window_rect(800, 100, 600, 800)
+    driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)
 
     driver.get('http://localhost:1667/')
 
-    input_data = ["Sz", f"Sz{random.randint(10, 1000)}@sz.hu", "Sz123456"]
-    data_of_new_article = ["test_title", "test_about", f"test_article text{random.randint(10, 1000)}", "test_tag"]
+    input_data = ["".join([random.choice(string.ascii_lowercase) for _ in range(5)]), f"{random.choice(string.ascii_lowercase)}{random.randint(10, 1000)}@mail.hu", "Pw123456"]
 
 
     # -----------Sign up----------
@@ -40,30 +39,6 @@ def test_tc_10_data_export():
 
     time.sleep(2)
 
-    # # -----------Export activities / first article-----------
-    #
-    # time.sleep(2)
-    #
-    # article_title_list = driver.find_elements_by_xpath("//div[@class='article-preview']/a/h1")
-    # article_title_list[0].click()
-    #
-    # time.sleep(2)
-    #
-    # title = driver.find_element_by_tag_name("h1").text
-    # article_text = driver.find_element_by_tag_name("p").text
-
-    # *******1.version******
-    # file_output_string = title + "\n" + article_text
-    # # print(file_output_string)
-    #
-    # with open("article_content.txt", "w") as file:
-    #     file.write(file_output_string)
-
-    # *******2.version******
-    # with open("article_content.txt", "w") as file:
-    #     file.write(title + "\n" + article_text)
-    #
-    # driver.back()
 
     # -----------Export activities / all articles-----------
 
