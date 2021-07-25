@@ -4,21 +4,19 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 import random
 
-options = Options()
-options.headless = True
+opt = Options()
+opt.headless = True
 # options.add_argument('--disable-gpu')
 
 def test_tc_8_modification():
 
-    driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+    driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)
 
     driver.get('http://localhost:1667/')
 
-    # input_data = ["Sz", "Sz4@sz.hu", "Sz123456"]
-    input_data = ["Sz", f"Sz{random.randint(10, 1000)}@sz.hu", "Sz123456"]
+    input_data = ["".join([random.choice(string.ascii_lowercase) for _ in range(5)]),
+                  f"{random.choice(string.ascii_lowercase)}{random.randint(10, 1000)}@mail.hu", "Pw123456"]
     test_data_for_modification = "It's a test sentence."
-
-    print(random.randint(10, 1000))
 
 
     # -----------Sign up----------
@@ -40,7 +38,6 @@ def test_tc_8_modification():
     time.sleep(2)
 
 
-
     # -----------Activities of settings-----------
 
 
@@ -51,10 +48,10 @@ def test_tc_8_modification():
     time.sleep(2.0)
     driver.find_element_by_xpath("//button[@class='swal-button swal-button--confirm']").click()
 
+    assert driver.find_element_by_tag_name("textarea").get_attribute("value") == test_data_for_modification
+    print(f"Text of bio: {driver.find_element_by_tag_name('textarea').get_attribute('value')}")
 
 
     time.sleep(3)
-
-
 
     driver.close()
