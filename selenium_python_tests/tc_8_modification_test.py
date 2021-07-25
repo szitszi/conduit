@@ -1,15 +1,16 @@
-from selenium import webdriver
+
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 import random
+import string
 
 opt = Options()
 opt.headless = True
 # options.add_argument('--disable-gpu')
 
 def test_tc_8_modification():
-
+    from selenium import webdriver
     driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)
 
     driver.get('http://localhost:1667/')
