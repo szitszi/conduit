@@ -1,61 +1,43 @@
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
 import time
-import random
 
-driver = webdriver.Chrome()
+opt = Options()
+opt.headless = False
+# options.add_argument('--disable-gpu')
 
-driver.get('http://localhost:1667/')
+driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)
+driver.set_window_rect(1200, 400, 1300, 1000)
 
-input_data = ["Sz", f"Sz{random.randint(10, 1000)}@sz.hu", "Sz123456"]
-number_of_pages = 6
+try:
+    driver.get('http://localhost:1667/')
 
-
-# ------------------Sign up-----------------
-def registration_process():
-    driver.find_element_by_xpath("//a[@href='#/register']").click()
-    # time.sleep(2)
-    for i in range(len(input_data)):
-        driver.find_element_by_xpath(f"//fieldset[{i + 1}]/input").send_keys(input_data[i])
-        # time.sleep(2)
-    driver.find_element_by_tag_name("button").click()
+    input_data = ["testuser3", "testuser3@example.com", "Abcd123$"]
+    number_of_pages_start = 2
 
 
-registration_process()
+    # ------Sign in---------
+    def login_process():
+        driver.find_element_by_xpath("//a[@href='#/login']").click()
+        for i in range(len(input_data) - 1):
+            driver.find_element_by_xpath(f"//fieldset[{i + 1}]/input").send_keys(input_data[i + 1])
+            time.sleep(1)
+        driver.find_element_by_tag_name("button").click()
 
-time.sleep(2)
+    login_process()
 
-# --------Accept of welcome message----------
-driver.find_element_by_xpath("//div[@tabindex='-1']/div/div[4]/div/button").click()
+    time.sleep(2)
 
-time.sleep(2)
+    # -----------Pagination-----------
+    pages = driver.find_elements_by_class_name("page-link")
+    print(len(pages))
 
-# ---------Log out-----------
-driver.find_element_by_xpath("//a[@active-class='active']").click()
-
-time.sleep(2)
-
-
-# ------Sign in---------
-def login_process():
-    driver.find_element_by_xpath("//a[@href='#/login']").click()
-    for i in range(len(input_data) - 1):
-        driver.find_element_by_xpath(f"//fieldset[{i + 1}]/input").send_keys(input_data[i + 1])
+    for page in pages:
+        page.click()
         time.sleep(1)
-    driver.find_element_by_tag_name("button").click()
 
+    assert len(pages) == number_of_pages_start
 
-login_process()
-
-# -----------Pagination-----------
-
-time.sleep(5)
-
-pagination = driver.find_element_by_xpath("//ul[@class='pagination']")
-pages = driver.find_elements_by_class_name("page-link")
-print(len(pages))
-
-for page in pages:
-    page.click()
-    time.sleep(1)
-
-driver.close()
+finally:
+    driver.close()

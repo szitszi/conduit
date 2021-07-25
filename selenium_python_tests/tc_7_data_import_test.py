@@ -39,29 +39,30 @@ def test_tc_7_data_import():
 
     time.sleep(2)
 
-    # -----------Import input data-----------
-
-    def writing_of_new_article_process(input_title, input_about, input_text, input_tag):
-        driver.find_element_by_xpath("//a[@href='#/editor']").click()
-        time.sleep(2)
-        driver.find_element_by_xpath("//input[@placeholder='Article Title']").send_keys(input_title)
-        driver.find_element_by_xpath("//input[starts-with(@placeholder,'What')]").send_keys(input_about)
-        driver.find_element_by_xpath("//textarea[starts-with(@placeholder,'Write')]").send_keys(input_text)
-        driver.find_element_by_xpath("//input[@placeholder='Enter tags']").send_keys(input_tag)
-        time.sleep(1)
-        driver.find_element_by_xpath("//button[@class='btn btn-lg pull-xs-right btn-primary']").click()
-        time.sleep(1)
-
-
-    with open('import_data.csv') as csvfile:
-        csvreader = csv.reader(csvfile, delimiter=',')
-        next(csvreader)
-        for row in csvreader:
-            print(row)
-            writing_of_new_article_process(row[0], row[1], row[2], row[3])
-
-
-    time.sleep(1)
+    # # -----------Import input data-----------
+    #
+    # def writing_of_new_article_process(input_title, input_about, input_text, input_tag):
+    #     driver.find_element_by_xpath("//a[@href='#/editor']").click()
+    #     time.sleep(2)
+    #     driver.find_element_by_xpath("//input[@placeholder='Article Title']").send_keys(input_title)
+    #     driver.find_element_by_xpath("//input[starts-with(@placeholder,'What')]").send_keys(input_about)
+    #     driver.find_element_by_xpath("//textarea[starts-with(@placeholder,'Write')]").send_keys(input_text)
+    #     driver.find_element_by_xpath("//input[@placeholder='Enter tags']").send_keys(input_tag)
+    #     time.sleep(1)
+    #     driver.find_element_by_xpath("//button[@class='btn btn-lg pull-xs-right btn-primary']").click()
+    #     time.sleep(1)
+    #
+    # # https: // raw.githubusercontent.com / Training360 / selenium - py / main / README.md
+    #
+    # with open('import_data.csv') as csvfile:
+    #     csvreader = csv.reader(csvfile, delimiter=',')
+    #     next(csvreader)
+    #     for row in csvreader:
+    #         print(row)
+    #         writing_of_new_article_process(row[0], row[1], row[2], row[3])
+    #
+    #
+    # time.sleep(1)
 
 
     driver.close()
