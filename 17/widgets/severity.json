@@ -1,0 +1,111 @@
+[ {
+  "uid" : "545bc85ac30363c1",
+  "name" : "test_tc_3_gdpr",
+  "time" : {
+    "start" : 1627215285921,
+    "stop" : 1627215291473,
+    "duration" : 5552
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2999e92a2c4d5fa4",
+  "name" : "test_tc_8_modification",
+  "time" : {
+    "start" : 1627215325282,
+    "stop" : 1627215338248,
+    "duration" : 12966
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e95182c1df29968",
+  "name" : "test_tc_9_deletion",
+  "time" : {
+    "start" : 1627215338251,
+    "stop" : 1627215358417,
+    "duration" : 20166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "777c1600cd62990c",
+  "name" : "test_tc_6_new_article",
+  "time" : {
+    "start" : 1627215308200,
+    "stop" : 1627215319319,
+    "duration" : 11119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21a2f60f6aa3a439",
+  "name" : "test_tc_1_registration",
+  "time" : {
+    "start" : 1627215268289,
+    "stop" : 1627215280134,
+    "duration" : 11845
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62731729b92900ef",
+  "name" : "test_tc_2_sign_in",
+  "time" : {
+    "start" : 1627215280138,
+    "stop" : 1627215285918,
+    "duration" : 5780
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5685e9b6361d88da",
+  "name" : "test_tc_5_pages",
+  "time" : {
+    "start" : 1627215300347,
+    "stop" : 1627215308196,
+    "duration" : 7849
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea6bfbfe72a46680",
+  "name" : "test_tc_7_data_import",
+  "time" : {
+    "start" : 1627215319322,
+    "stop" : 1627215325279,
+    "duration" : 5957
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9dd7b982d48d17d",
+  "name" : "test_tc_11_log_out",
+  "time" : {
+    "start" : 1627215260376,
+    "stop" : 1627215268286,
+    "duration" : 7910
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8e70730f212478e",
+  "name" : "test_tc_10_data_export",
+  "time" : {
+    "start" : 1627215204694,
+    "stop" : 1627215260373,
+    "duration" : 55679
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b6c354b08f319eb",
+  "name" : "test_tc_4_list",
+  "time" : {
+    "start" : 1627215291476,
+    "stop" : 1627215300344,
+    "duration" : 8868
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
