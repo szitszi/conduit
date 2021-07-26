@@ -1,0 +1,111 @@
+[ {
+  "uid" : "cb735ecf0a8106e8",
+  "name" : "test_tc_3_gdpr",
+  "time" : {
+    "start" : 1627311920777,
+    "stop" : 1627311926421,
+    "duration" : 5644
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "459ec6736e8d2a93",
+  "name" : "test_tc_8_modification",
+  "time" : {
+    "start" : 1627311961921,
+    "stop" : 1627311975132,
+    "duration" : 13211
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3df72ac56ce0873c",
+  "name" : "test_tc_10_data_export",
+  "time" : {
+    "start" : 1627311828202,
+    "stop" : 1627311891631,
+    "duration" : 63429
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25f23bccdf8fc76",
+  "name" : "test_tc_2_sign_in",
+  "time" : {
+    "start" : 1627311913854,
+    "stop" : 1627311920774,
+    "duration" : 6920
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ae2cfe7b0b3cd91",
+  "name" : "test_tc_4_list",
+  "time" : {
+    "start" : 1627311926424,
+    "stop" : 1627311935379,
+    "duration" : 8955
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b46f7af24c2904d8",
+  "name" : "test_tc_7_data_import",
+  "time" : {
+    "start" : 1627311954821,
+    "stop" : 1627311961856,
+    "duration" : 7035
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "492e5b7abd2714e3",
+  "name" : "test_tc_9_deletion",
+  "time" : {
+    "start" : 1627311975135,
+    "stop" : 1627312014229,
+    "duration" : 39094
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70e63d6bf3b80e3a",
+  "name" : "test_tc_11_log_out",
+  "time" : {
+    "start" : 1627311891634,
+    "stop" : 1627311901824,
+    "duration" : 10190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a4bf35cfa226790",
+  "name" : "test_tc_1_registration",
+  "time" : {
+    "start" : 1627311901828,
+    "stop" : 1627311913851,
+    "duration" : 12023
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf5cdfce503da5b2",
+  "name" : "test_tc_5_pages",
+  "time" : {
+    "start" : 1627311935423,
+    "stop" : 1627311943413,
+    "duration" : 7990
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efe94b331903fafb",
+  "name" : "test_tc_6_new_article",
+  "time" : {
+    "start" : 1627311943417,
+    "stop" : 1627311954817,
+    "duration" : 11400
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
