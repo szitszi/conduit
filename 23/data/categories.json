@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href='#/register']\"}\n  (Session info: headless chrome=91.0.4472.164)",
+      "children" : [ {
+        "name" : "test_tc_10_data_export",
+        "uid" : "83971a8f2d08d700",
+        "parentUid" : "053210c5cf7e6a2d54fca26163a7ca40",
+        "status" : "broken",
+        "time" : {
+          "start" : 1627310017393,
+          "stop" : 1627310019746,
+          "duration" : 2353
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_tc_11_log_out",
+        "uid" : "1c622363fe084e9",
+        "parentUid" : "053210c5cf7e6a2d54fca26163a7ca40",
+        "status" : "broken",
+        "time" : {
+          "start" : 1627310019852,
+          "stop" : 1627310021408,
+          "duration" : 1556
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "053210c5cf7e6a2d54fca26163a7ca40"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 11 == 2\n +  where 11 = len([<selenium.webdriver.remote.webelement.WebElement (session=\"22d0702670e0b300755f51bafe515578\", element=\"68025fe5-8da6-...belement.WebElement (session=\"22d0702670e0b300755f51bafe515578\", element=\"1e66ef03-224f-4247-9499-103373c2a502\")>, ...])",
+      "children" : [ {
+        "name" : "test_tc_4_list",
+        "uid" : "c9e7c7ff43761726",
+        "parentUid" : "4b6a2b7c9a03c007941ccb8c9b99dabe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627310046282,
+          "stop" : 1627310055297,
+          "duration" : 9015
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4b6a2b7c9a03c007941ccb8c9b99dabe"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

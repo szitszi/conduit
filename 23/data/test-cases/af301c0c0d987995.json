@@ -1,0 +1,170 @@
+{
+  "uid" : "af301c0c0d987995",
+  "name" : "test_tc_7_data_import",
+  "fullName" : "selenium_python_tests.tc_7_data_import_test#test_tc_7_data_import",
+  "historyId" : "d66a3418439fc50511edb7df59e8bb12",
+  "time" : {
+    "start" : 1627310074634,
+    "stop" : 1627310081690,
+    "duration" : 7056
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "11459bf6ffcb75f4",
+      "name" : "log",
+      "source" : "11459bf6ffcb75f4.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "f1be153e39c53e0a",
+      "name" : "stderr",
+      "source" : "f1be153e39c53e0a.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "selenium_python_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tc_7_data_import_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az77-953"
+  }, {
+    "name" : "thread",
+    "value" : "4182-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "selenium_python_tests.tc_7_data_import_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "a9b7b4d502559c0c",
+        "reportUrl" : "https://szitszi.github.io/conduit/22//#testresult/a9b7b4d502559c0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627250382443,
+          "stop" : 1627250389472,
+          "duration" : 7029
+        }
+      }, {
+        "uid" : "9e2dff8590080b8f",
+        "reportUrl" : "https://szitszi.github.io/conduit/21//#testresult/9e2dff8590080b8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627220751149,
+          "stop" : 1627220758147,
+          "duration" : 6998
+        }
+      }, {
+        "uid" : "ee1d91792564d579",
+        "reportUrl" : "https://szitszi.github.io/conduit/20//#testresult/ee1d91792564d579",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627219880945,
+          "stop" : 1627219887911,
+          "duration" : 6966
+        }
+      }, {
+        "uid" : "a3086ef034fbb7a",
+        "reportUrl" : "https://szitszi.github.io/conduit/19//#testresult/a3086ef034fbb7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627217616048,
+          "stop" : 1627217621997,
+          "duration" : 5949
+        }
+      }, {
+        "uid" : "6492f9d174c9feb5",
+        "reportUrl" : "https://szitszi.github.io/conduit/18//#testresult/6492f9d174c9feb5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627217166124,
+          "stop" : 1627217173053,
+          "duration" : 6929
+        }
+      }, {
+        "uid" : "ea6bfbfe72a46680",
+        "reportUrl" : "https://szitszi.github.io/conduit/17//#testresult/ea6bfbfe72a46680",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627215319322,
+          "stop" : 1627215325279,
+          "duration" : 5957
+        }
+      }, {
+        "uid" : "1e02de3c039001fc",
+        "reportUrl" : "https://szitszi.github.io/conduit/16//#testresult/1e02de3c039001fc",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'import_data.csv'",
+        "time" : {
+          "start" : 1627057362075,
+          "stop" : 1627057369164,
+          "duration" : 7089
+        }
+      }, {
+        "uid" : "1d1b2ca719cae656",
+        "reportUrl" : "https://szitszi.github.io/conduit/15//#testresult/1d1b2ca719cae656",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'import_data.csv'",
+        "time" : {
+          "start" : 1626962999264,
+          "stop" : 1626963006190,
+          "duration" : 6926
+        }
+      }, {
+        "uid" : "492eeb6c1ec63b6c",
+        "reportUrl" : "https://szitszi.github.io/conduit/14//#testresult/492eeb6c1ec63b6c",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'import_data.csv'",
+        "time" : {
+          "start" : 1626962475213,
+          "stop" : 1626962481151,
+          "duration" : 5938
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "af301c0c0d987995.json",
+  "parameterValues" : [ ]
+}
