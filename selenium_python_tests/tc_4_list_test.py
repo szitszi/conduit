@@ -31,12 +31,13 @@ def test_tc_4_list():
     # -----------Making list-----------
     signed_up_user = driver.find_element_by_xpath("//li[@class='nav-item'][4]/a")
     signed_up_user.click()
-    time.sleep(3)
+    time.sleep(5)
     article_title_list = driver.find_elements_by_xpath("//div[@class='article-preview']/a/h1")
     for item in article_title_list:
         print(item.text)
+    print(len(article_title_list))
+    assert len(article_title_list) == 2
 
-    assert len(article_title_list) == 11
 
     time.sleep(2)
 
