@@ -1,0 +1,222 @@
+{
+  "uid" : "75e8f4055a16bf31",
+  "name" : "test_tc_4_list",
+  "fullName" : "selenium_python_tests.tc_4_list_test#test_tc_4_list",
+  "historyId" : "4f73ef494ed469ad3062dd48746b0dd7",
+  "time" : {
+    "start" : 1627315519983,
+    "stop" : 1627315532951,
+    "duration" : 12968
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d2959d47d473a24a",
+      "name" : "log",
+      "source" : "d2959d47d473a24a.txt",
+      "type" : "text/plain",
+      "size" : 344
+    }, {
+      "uid" : "ff0e5881b62c3ce1",
+      "name" : "stdout",
+      "source" : "ff0e5881b62c3ce1.txt",
+      "type" : "text/plain",
+      "size" : 55
+    }, {
+      "uid" : "31278161a5fce2ba",
+      "name" : "stderr",
+      "source" : "31278161a5fce2ba.txt",
+      "type" : "text/plain",
+      "size" : 215
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "selenium_python_tests"
+  }, {
+    "name" : "suite",
+    "value" : "tc_4_list_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az77-428"
+  }, {
+    "name" : "thread",
+    "value" : "3744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "selenium_python_tests.tc_4_list_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "4ae2cfe7b0b3cd91",
+        "reportUrl" : "https://szitszi.github.io/conduit/25//#testresult/4ae2cfe7b0b3cd91",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 == 11\n +  where 2 = len([<selenium.webdriver.remote.webelement.WebElement (session=\"2e25e83eac012b067f6bbf6c9ac90ce2\", element=\"bcff2c8d-f595-...te.webelement.WebElement (session=\"2e25e83eac012b067f6bbf6c9ac90ce2\", element=\"0418d3b0-03ea-48fb-896d-b2506d5b92ee\")>])",
+        "time" : {
+          "start" : 1627311926424,
+          "stop" : 1627311935379,
+          "duration" : 8955
+        }
+      }, {
+        "uid" : "f5ba5d651b4ff888",
+        "reportUrl" : "https://szitszi.github.io/conduit/24//#testresult/f5ba5d651b4ff888",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 2 == 11\n +  where 2 = len([<selenium.webdriver.remote.webelement.WebElement (session=\"ea9af43db185b8ef1817ef603ebdf993\", element=\"cc27d193-d7ec-...te.webelement.WebElement (session=\"ea9af43db185b8ef1817ef603ebdf993\", element=\"89b544e5-d079-4de5-ad2e-f511ab205c20\")>])",
+        "time" : {
+          "start" : 1627311023637,
+          "stop" : 1627311032607,
+          "duration" : 8970
+        }
+      }, {
+        "uid" : "c9e7c7ff43761726",
+        "reportUrl" : "https://szitszi.github.io/conduit/23//#testresult/c9e7c7ff43761726",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 11 == 2\n +  where 11 = len([<selenium.webdriver.remote.webelement.WebElement (session=\"22d0702670e0b300755f51bafe515578\", element=\"68025fe5-8da6-...belement.WebElement (session=\"22d0702670e0b300755f51bafe515578\", element=\"1e66ef03-224f-4247-9499-103373c2a502\")>, ...])",
+        "time" : {
+          "start" : 1627310046282,
+          "stop" : 1627310055297,
+          "duration" : 9015
+        }
+      }, {
+        "uid" : "998836a411c0a6b7",
+        "reportUrl" : "https://szitszi.github.io/conduit/22//#testresult/998836a411c0a6b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627250354207,
+          "stop" : 1627250365169,
+          "duration" : 10962
+        }
+      }, {
+        "uid" : "c59375f735518221",
+        "reportUrl" : "https://szitszi.github.io/conduit/21//#testresult/c59375f735518221",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627220724214,
+          "stop" : 1627220734114,
+          "duration" : 9900
+        }
+      }, {
+        "uid" : "51d95aa42c69db3f",
+        "reportUrl" : "https://szitszi.github.io/conduit/20//#testresult/51d95aa42c69db3f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627219854062,
+          "stop" : 1627219863878,
+          "duration" : 9816
+        }
+      }, {
+        "uid" : "32312a77607e336b",
+        "reportUrl" : "https://szitszi.github.io/conduit/19//#testresult/32312a77607e336b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 11 == 2\n +  where 11 = len([<selenium.webdriver.remote.webelement.WebElement (session=\"45ee1d5c1d5bfa3a9369696ee06c5c36\", element=\"1fe64a45-e065-...belement.WebElement (session=\"45ee1d5c1d5bfa3a9369696ee06c5c36\", element=\"7b6ccdc3-fca3-4e5b-851d-45a40960ad41\")>, ...])",
+        "time" : {
+          "start" : 1627217589275,
+          "stop" : 1627217597107,
+          "duration" : 7832
+        }
+      }, {
+        "uid" : "bb459d8bb7ccf92a",
+        "reportUrl" : "https://szitszi.github.io/conduit/18//#testresult/bb459d8bb7ccf92a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627217138302,
+          "stop" : 1627217148145,
+          "duration" : 9843
+        }
+      }, {
+        "uid" : "4b6c354b08f319eb",
+        "reportUrl" : "https://szitszi.github.io/conduit/17//#testresult/4b6c354b08f319eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627215291476,
+          "stop" : 1627215300344,
+          "duration" : 8868
+        }
+      }, {
+        "uid" : "c46719bdd9028acd",
+        "reportUrl" : "https://szitszi.github.io/conduit/16//#testresult/c46719bdd9028acd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627057327092,
+          "stop" : 1627057337381,
+          "duration" : 10289
+        }
+      }, {
+        "uid" : "463417e6209a17c5",
+        "reportUrl" : "https://szitszi.github.io/conduit/15//#testresult/463417e6209a17c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626962965922,
+          "stop" : 1626962975036,
+          "duration" : 9114
+        }
+      }, {
+        "uid" : "e711cd695c279d7c",
+        "reportUrl" : "https://szitszi.github.io/conduit/14//#testresult/e711cd695c279d7c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626962440742,
+          "stop" : 1626962450889,
+          "duration" : 10147
+        }
+      }, {
+        "uid" : "fd2a5572dcf13e9f",
+        "reportUrl" : "https://szitszi.github.io/conduit/13//#testresult/fd2a5572dcf13e9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626962072073,
+          "stop" : 1626962082555,
+          "duration" : 10482
+        }
+      }, {
+        "uid" : "1af362548600fa8b",
+        "reportUrl" : "https://szitszi.github.io/conduit/12//#testresult/1af362548600fa8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626961292537,
+          "stop" : 1626961302741,
+          "duration" : 10204
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "75e8f4055a16bf31.json",
+  "parameterValues" : [ ]
+}
