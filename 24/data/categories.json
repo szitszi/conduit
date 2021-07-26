@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 2 == 11\n +  where 2 = len([<selenium.webdriver.remote.webelement.WebElement (session=\"ea9af43db185b8ef1817ef603ebdf993\", element=\"cc27d193-d7ec-...te.webelement.WebElement (session=\"ea9af43db185b8ef1817ef603ebdf993\", element=\"89b544e5-d079-4de5-ad2e-f511ab205c20\")>])",
+      "children" : [ {
+        "name" : "test_tc_4_list",
+        "uid" : "f5ba5d651b4ff888",
+        "parentUid" : "4b1574c49ab6973a8705ca5f783a65e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627311023637,
+          "stop" : 1627311032607,
+          "duration" : 8970
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4b1574c49ab6973a8705ca5f783a65e9"
+    }, {
+      "name" : "AssertionError: assert 13 == 1\n +  where 13 = len([<selenium.webdriver.remote.webelement.WebElement (session=\"4741cd9bdd6153d76f438289b62bb1b8\", element=\"452f9528-3bc8-...belement.WebElement (session=\"4741cd9bdd6153d76f438289b62bb1b8\", element=\"e050c599-be95-4748-8637-880dcdd064d9\")>, ...])\n +    where [<selenium.webdriver.remote.webelement.WebElement (session=\"4741cd9bdd6153d76f438289b62bb1b8\", element=\"452f9528-3bc8-...belement.WebElement (session=\"4741cd9bdd6153d76f438289b62bb1b8\", element=\"e050c599-be95-4748-8637-880dcdd064d9\")>, ...] = <bound method WebDriver.find_elements_by_xpath of <selenium.webdriver.chrome.webdriver.WebDriver (session=\"4741cd9bdd6153d76f438289b62bb1b8\")>>('//h1')\n +      where <bound method WebDriver.find_elements_by_xpath of <selenium.webdriver.chrome.webdriver.WebDriver (session=\"4741cd9bdd6153d76f438289b62bb1b8\")>> = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"4741cd9bdd6153d76f438289b62bb1b8\")>.find_elements_by_xpath",
+      "children" : [ {
+        "name" : "test_tc_9_deletion",
+        "uid" : "e055b691aa16ab14",
+        "parentUid" : "deb3085823e1a607d0a6e6e94b8c8188",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627311072104,
+          "stop" : 1627311090521,
+          "duration" : 18417
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "deb3085823e1a607d0a6e6e94b8c8188"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
