@@ -37,7 +37,7 @@ try:
     for item in article_title_list:
         print(item.text)
 
-    assert len(article_title_list) == 2
+    assert len(article_title_list) == 11
 
     time.sleep(2)
 

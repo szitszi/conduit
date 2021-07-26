@@ -17,6 +17,8 @@ def test_tc_10_data_export():
 
     driver.get('http://localhost:1667/')
 
+    time.sleep(2)
+
     input_data = ["".join([random.choice(string.ascii_lowercase) for _ in range(5)]), f"{random.choice(string.ascii_lowercase)}{random.randint(10, 1000)}@mail.hu", "Pw123456"]
 
 
