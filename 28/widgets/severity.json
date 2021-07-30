@@ -1,0 +1,111 @@
+[ {
+  "uid" : "ad63154279ab9cc2",
+  "name" : "test_tc_4_list",
+  "time" : {
+    "start" : 1627640768519,
+    "stop" : 1627640781605,
+    "duration" : 13086
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57848239dea91a24",
+  "name" : "test_tc_6_new_article",
+  "time" : {
+    "start" : 1627640788632,
+    "stop" : 1627640800066,
+    "duration" : 11434
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59a57dbb2007b06e",
+  "name" : "test_tc_2_sign_in",
+  "time" : {
+    "start" : 1627640752170,
+    "stop" : 1627640759061,
+    "duration" : 6891
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2acb539be4c1d8e4",
+  "name" : "test_tc_5_pages",
+  "time" : {
+    "start" : 1627640781609,
+    "stop" : 1627640788627,
+    "duration" : 7018
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f15a4ebb6164524",
+  "name" : "test_tc_9_deletion",
+  "time" : {
+    "start" : 1627640819282,
+    "stop" : 1627640858407,
+    "duration" : 39125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "deae83632f79443a",
+  "name" : "test_tc_1_registration",
+  "time" : {
+    "start" : 1627640740175,
+    "stop" : 1627640752167,
+    "duration" : 11992
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3f1da00ae7404fc",
+  "name" : "test_tc_10_data_export",
+  "time" : {
+    "start" : 1627640667321,
+    "stop" : 1627640729997,
+    "duration" : 62676
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58093567ea008c0",
+  "name" : "test_tc_11_log_out",
+  "time" : {
+    "start" : 1627640730000,
+    "stop" : 1627640740170,
+    "duration" : 10170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "426f59d92b5e7311",
+  "name" : "test_tc_8_modification",
+  "time" : {
+    "start" : 1627640806038,
+    "stop" : 1627640819277,
+    "duration" : 13239
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e022fa04971d3168",
+  "name" : "test_tc_7_data_import",
+  "time" : {
+    "start" : 1627640800070,
+    "stop" : 1627640806027,
+    "duration" : 5957
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1137ed400c9a4bfd",
+  "name" : "test_tc_3_gdpr",
+  "time" : {
+    "start" : 1627640759065,
+    "stop" : 1627640768478,
+    "duration" : 9413
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "df2e018dc454fc2eb5cf8af3b898f337",
+    "name" : "selenium_python_tests",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 11
+    }
+  } ]
+}
