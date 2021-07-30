@@ -30,17 +30,30 @@ try:
     time.sleep(2)
 
     # -----------Making list-----------
-    signed_up_user = driver.find_element_by_xpath("//li[@class='nav-item'][4]/a")
-    signed_up_user.click()
+    # signed_up_user = driver.find_element_by_xpath("//li[@class='nav-item'][4]/a")
+    # signed_up_user.click()
+    # time.sleep(5)
+    # article_title_list = driver.find_elements_by_xpath("//div[@class='article-preview']/a/h1")
+    # for item in article_title_list:
+    #     print(item.text)
+    #
+    # print(len(article_title_list))
+    # assert len(article_title_list) == 2
+    #
+    # time.sleep(2)
+
+    global_feed = driver.find_element_by_xpath('//*[@id="app"]/div/div[2]/div/div[1]/div[1]/ul/li[2]/a')
+    global_feed.click()
     time.sleep(5)
-    article_title_list = driver.find_elements_by_xpath("//div[@class='article-preview']/a/h1")
+    article_title_list = driver.find_elements_by_xpath("//a/h1")
     for item in article_title_list:
         print(item.text)
 
     print(len(article_title_list))
-    assert len(article_title_list) == 2
+    assert len(article_title_list) == 11
 
     time.sleep(2)
+
 
 finally:
     driver.close()

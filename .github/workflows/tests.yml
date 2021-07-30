@@ -19,7 +19,7 @@ jobs:
       run: docker-compose up -d
 
 
-    - name: Pihen
+    - name: Waiting
       run: sleep 45s
       shell: bash
 
