@@ -5,9 +5,11 @@ import time
 
 opt = Options()
 opt.headless = True
+
+
 # options.add_argument('--disable-gpu')
 
-def test_tc_3_gdpr():
+def test_tc_3_cookies():
     driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)
 
     driver.get('http://localhost:1667/')
@@ -16,28 +18,25 @@ def test_tc_3_gdpr():
 
     accept_button = driver.find_element_by_xpath('/html/body/div/footer/div/div/div/div[2]/button[2]/div')
     decline_button = driver.find_element_by_xpath('/html/body/div/footer/div/div/div/div[2]/button[1]/div')
+    cookie_buttons = driver.find_elements_by_xpath('/html/body/div/footer/div/div/div/div/button')
+    # print(len(cookie_buttons))
 
+    assert len(cookie_buttons) == 2
     assert accept_button.is_enabled()
     assert decline_button.is_enabled()
 
-    decline_button.click()
+    accept_button.click()
 
     time.sleep(2)
 
-    # driver.refresh()
-    driver.close()
-    # driver.quit()
+    driver.refresh()
 
-    time.sleep(2)
-    driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)
-    driver.set_window_rect(1200, 400, 1300, 1000)
     driver.get('http://localhost:1667/')
     time.sleep(1)
 
-    accept_button = driver.find_element_by_xpath('//*[@id="cookie-policy-panel"]/div/div[2]/button[2]/div')
-    decline_button = driver.find_element_by_xpath('//*[@id="cookie-policy-panel"]/div/div[2]/button[1]/div')
+    cookie_buttons = driver.find_elements_by_xpath('/html/body/div/footer/div/div/div/div/button')
+    # print(len(cookie_buttons))
 
-    assert not accept_button.is_enabled()
-    assert not decline_button.is_enabled()
+    assert len(cookie_buttons) == 0
 
     driver.close()
