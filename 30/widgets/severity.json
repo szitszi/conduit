@@ -1,0 +1,111 @@
+[ {
+  "uid" : "8619294e49bc7192",
+  "name" : "test_tc_9_deletion",
+  "time" : {
+    "start" : 1627902628352,
+    "stop" : 1627902667651,
+    "duration" : 39299
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "129b752494f45cd9",
+  "name" : "test_tc_11_log_out",
+  "time" : {
+    "start" : 1627902527227,
+    "stop" : 1627902536588,
+    "duration" : 9361
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb75e866769e80ff",
+  "name" : "test_tc_1_registration",
+  "time" : {
+    "start" : 1627902536592,
+    "stop" : 1627902547729,
+    "duration" : 11137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46f330cfdf733d45",
+  "name" : "test_tc_3_cookies",
+  "time" : {
+    "start" : 1627902554762,
+    "stop" : 1627902561818,
+    "duration" : 7056
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae0f9eaca2448bb9",
+  "name" : "test_tc_7_data_import",
+  "time" : {
+    "start" : 1627902594456,
+    "stop" : 1627902615035,
+    "duration" : 20579
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3a195d6daccdeca",
+  "name" : "test_tc_4_list",
+  "time" : {
+    "start" : 1627902561821,
+    "stop" : 1627902574962,
+    "duration" : 13141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88171f2ddc89e831",
+  "name" : "test_tc_6_new_article",
+  "time" : {
+    "start" : 1627902582971,
+    "stop" : 1627902594453,
+    "duration" : 11482
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7514a0d547230a9",
+  "name" : "test_tc_5_pages",
+  "time" : {
+    "start" : 1627902574965,
+    "stop" : 1627902582967,
+    "duration" : 8002
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "249ee51369d5301c",
+  "name" : "test_tc_10_data_export",
+  "time" : {
+    "start" : 1627902468859,
+    "stop" : 1627902527223,
+    "duration" : 58364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19effe823cfb23f7",
+  "name" : "test_tc_2_sign_in",
+  "time" : {
+    "start" : 1627902547732,
+    "stop" : 1627902554759,
+    "duration" : 7027
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8ca3bc40ef933c8",
+  "name" : "test_tc_8_modification",
+  "time" : {
+    "start" : 1627902615038,
+    "stop" : 1627902628349,
+    "duration" : 13311
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

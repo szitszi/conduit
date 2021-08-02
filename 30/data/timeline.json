@@ -1,0 +1,156 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az83-915",
+    "children" : [ {
+      "name" : "3668-MainThread",
+      "children" : [ {
+        "name" : "test_tc_10_data_export",
+        "uid" : "249ee51369d5301c",
+        "parentUid" : "c7bd6b9b74fa1ae33db39164426a6508",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627902468859,
+          "stop" : 1627902527223,
+          "duration" : 58364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_tc_6_new_article",
+        "uid" : "88171f2ddc89e831",
+        "parentUid" : "c7bd6b9b74fa1ae33db39164426a6508",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627902582971,
+          "stop" : 1627902594453,
+          "duration" : 11482
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_tc_2_sign_in",
+        "uid" : "19effe823cfb23f7",
+        "parentUid" : "c7bd6b9b74fa1ae33db39164426a6508",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627902547732,
+          "stop" : 1627902554759,
+          "duration" : 7027
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_tc_9_deletion",
+        "uid" : "8619294e49bc7192",
+        "parentUid" : "c7bd6b9b74fa1ae33db39164426a6508",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627902628352,
+          "stop" : 1627902667651,
+          "duration" : 39299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_tc_5_pages",
+        "uid" : "e7514a0d547230a9",
+        "parentUid" : "c7bd6b9b74fa1ae33db39164426a6508",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627902574965,
+          "stop" : 1627902582967,
+          "duration" : 8002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_tc_8_modification",
+        "uid" : "c8ca3bc40ef933c8",
+        "parentUid" : "c7bd6b9b74fa1ae33db39164426a6508",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627902615038,
+          "stop" : 1627902628349,
+          "duration" : 13311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_tc_1_registration",
+        "uid" : "fb75e866769e80ff",
+        "parentUid" : "c7bd6b9b74fa1ae33db39164426a6508",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627902536592,
+          "stop" : 1627902547729,
+          "duration" : 11137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_tc_7_data_import",
+        "uid" : "ae0f9eaca2448bb9",
+        "parentUid" : "c7bd6b9b74fa1ae33db39164426a6508",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627902594456,
+          "stop" : 1627902615035,
+          "duration" : 20579
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_tc_3_cookies",
+        "uid" : "46f330cfdf733d45",
+        "parentUid" : "c7bd6b9b74fa1ae33db39164426a6508",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627902554762,
+          "stop" : 1627902561818,
+          "duration" : 7056
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_tc_11_log_out",
+        "uid" : "129b752494f45cd9",
+        "parentUid" : "c7bd6b9b74fa1ae33db39164426a6508",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627902527227,
+          "stop" : 1627902536588,
+          "duration" : 9361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_tc_4_list",
+        "uid" : "d3a195d6daccdeca",
+        "parentUid" : "c7bd6b9b74fa1ae33db39164426a6508",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627902561821,
+          "stop" : 1627902574962,
+          "duration" : 13141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c7bd6b9b74fa1ae33db39164426a6508"
+    } ],
+    "uid" : "b49e54ea0299dceefd8070e8c2ba548f"
+  } ],
+  "name" : "timeline"
+}
