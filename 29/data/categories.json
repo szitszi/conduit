@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert not True\n +  where True = <bound method WebElement.is_enabled of <selenium.webdriver.remote.webelement.WebElement (session=\"4bd770ae39f8081cd80c4765557a2504\", element=\"395b0384-a971-44f3-9a4f-316cfb3328e7\")>>()\n +    where <bound method WebElement.is_enabled of <selenium.webdriver.remote.webelement.WebElement (session=\"4bd770ae39f8081cd80c4765557a2504\", element=\"395b0384-a971-44f3-9a4f-316cfb3328e7\")>> = <selenium.webdriver.remote.webelement.WebElement (session=\"4bd770ae39f8081cd80c4765557a2504\", element=\"395b0384-a971-44f3-9a4f-316cfb3328e7\")>.is_enabled",
+      "children" : [ {
+        "name" : "test_tc_3_gdpr",
+        "uid" : "f8f413fe1b2da0be",
+        "parentUid" : "be8250c71a984b96df0f1575b5dae7f8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627902163713,
+          "stop" : 1627902174064,
+          "duration" : 10351
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "be8250c71a984b96df0f1575b5dae7f8"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
