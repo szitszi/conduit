@@ -34,7 +34,7 @@ time.sleep(2)
 
 driver.refresh()
 # driver.close()
-# driver.quit()
+
 
 # time.sleep(2)
 # driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)

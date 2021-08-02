@@ -19,7 +19,7 @@ def test_tc_3_cookies():
     accept_button = driver.find_element_by_xpath('/html/body/div/footer/div/div/div/div[2]/button[2]/div')
     decline_button = driver.find_element_by_xpath('/html/body/div/footer/div/div/div/div[2]/button[1]/div')
     cookie_buttons = driver.find_elements_by_xpath('/html/body/div/footer/div/div/div/div/button')
-    # print(len(cookie_buttons))
+
 
     assert len(cookie_buttons) == 2
     assert accept_button.is_enabled()
@@ -35,7 +35,7 @@ def test_tc_3_cookies():
     time.sleep(1)
 
     cookie_buttons = driver.find_elements_by_xpath('/html/body/div/footer/div/div/div/div/button')
-    # print(len(cookie_buttons))
+
 
     assert len(cookie_buttons) == 0
 
