@@ -54,7 +54,7 @@ def test_tc_7_data_import():
 
     # https: // raw.githubusercontent.com / Training360 / selenium - py / main / README.md
 
-    with open('import_data.csv') as csvfile:
+    with open('../selenium-tests/import_data.csv') as csvfile:
         csvreader = csv.reader(csvfile, delimiter=',')
         next(csvreader)
         for row in csvreader:

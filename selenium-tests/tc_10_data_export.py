@@ -85,8 +85,8 @@ try:
 
     # -----------Export activities / all articles-----------
 
-    if os.path.exists("all_articles_content.txt"):
-        os.remove("all_articles_content.txt")
+    if os.path.exists("../selenium_python_tests/all_articles_content.txt"):
+        os.remove("../selenium_python_tests/all_articles_content.txt")
     else:
         pass
 
@@ -110,7 +110,7 @@ try:
         serial_number = i + 1
         title = driver.find_element_by_tag_name("h1").text
         article_text = driver.find_element_by_tag_name("p").text
-        with open("all_articles_content.txt", "a") as file:
+        with open("../selenium_python_tests/all_articles_content.txt", "a") as file:
             file.write(str(serial_number) + ". : " + title + "\n" + article_text + "\n\n")
         driver.back()
         time.sleep(2)
