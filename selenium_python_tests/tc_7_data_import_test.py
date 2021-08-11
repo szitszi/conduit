@@ -52,9 +52,8 @@ def test_tc_7_data_import():
         driver.find_element_by_xpath("//button[@class='btn btn-lg pull-xs-right btn-primary']").click()
         time.sleep(1)
 
-    # https: // raw.githubusercontent.com / Training360 / selenium - py / main / README.md
 
-    with open('../selenium-tests/import_data.csv') as csvfile:
+    with open('import_data.csv') as csvfile:
         csvreader = csv.reader(csvfile, delimiter=',')
         next(csvreader)
         for row in csvreader:
