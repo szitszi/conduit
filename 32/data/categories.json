@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: '../selenium-tests/import_data.csv'",
+      "children" : [ {
+        "name" : "test_tc_7_data_import",
+        "uid" : "48d053812bfb34c4",
+        "parentUid" : "6f8bdca44781f882a0f960e5aa2070b2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628690163732,
+          "stop" : 1628690170860,
+          "duration" : 7128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6f8bdca44781f882a0f960e5aa2070b2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
